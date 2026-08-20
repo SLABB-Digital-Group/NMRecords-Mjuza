@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="NM Records — Excellence @ Its Best. Music recording, voice-over, tribute, tombstone audio and advertising jingle services in Motherwell.">
+<title>NM Records | Excellence @ Its Best</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08080a;--panel:#111114;--text:#f7f4ee;--muted:#aaa7a0;--gold:#d9a63b;--gold2:#f3cc6a;--line:rgba(255,255,255,.09);--max:1180px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"DM Sans",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}.container{width:min(var(--max),calc(100% - 40px));margin:auto}
+header{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(8,8,10,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.navbar{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}
+.logo{width:43px;height:43px;border:1px solid rgba(217,166,59,.6);display:grid;place-items:center;color:var(--gold2);font-family:"Playfair Display";font-weight:800}
+.brand b{display:block;font-size:14px;letter-spacing:4px}.brand small{display:block;color:var(--gold);font-size:8px;letter-spacing:2px}
+nav{display:flex;align-items:center;gap:28px;font-size:13px;color:#d6d3ce}nav a:hover{color:var(--gold2)}
+.nav-btn{border:1px solid rgba(217,166,59,.55);padding:10px 16px;color:var(--gold2)}
+.menu{display:none;background:none;border:0;color:white;font-size:26px}
+.hero{min-height:780px;padding:155px 0 85px;overflow:hidden;background:radial-gradient(circle at 85% 35%,rgba(217,166,59,.12),transparent 27%),linear-gradient(120deg,#08080a,#0b0b0e)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}
+.eyebrow{font-size:11px;letter-spacing:4px;color:var(--gold2);font-weight:700;margin-bottom:18px}
+h1,h2{font-family:"Playfair Display",serif;line-height:1.03;letter-spacing:-1.5px}h1{font-size:clamp(58px,7vw,92px)}
+h2{font-size:clamp(42px,5vw,64px)}h1 em,h2 em{color:var(--gold2);font-style:normal}
+.hero p.lead{max-width:650px;color:var(--muted);font-size:17px;margin:28px 0 32px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;gap:18px;padding:14px 22px;font-size:13px;font-weight:700}
+.gold{background:var(--gold);color:#111}.gold:hover{background:var(--gold2)}.outline{border:1px solid var(--line);color:#ddd}
+.meta{display:flex;gap:38px;margin-top:55px}.meta div{border-left:1px solid var(--gold);padding-left:13px}.meta strong{display:block;font-size:18px}.meta span{color:#777;font-size:10px}
+.hero-art{position:relative}.hero-art img{width:100%;height:600px;object-fit:cover;border:1px solid rgba(217,166,59,.3);box-shadow:0 35px 80px #0008;transform:rotate(2deg)}
+.float{position:absolute;left:-40px;bottom:38px;background:#151519;border:1px solid var(--line);padding:13px 16px;font-size:11px;box-shadow:0 15px 40px #0008}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--gold);margin-right:9px}
+.strip{border-block:1px solid var(--line);background:#0d0d10}.strip-in{height:72px;display:flex;justify-content:space-between;align-items:center;color:#888;font-size:10px;letter-spacing:4px}.strip i{color:var(--gold)}
+section.pad{padding:120px 0}.head{display:grid;grid-template-columns:1fr .7fr;gap:80px;align-items:end;margin-bottom:55px}.intro{color:var(--muted);font-size:15px}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.card{background:var(--panel);padding:34px;min-height:260px;position:relative}.card:hover{background:#17171b}
+.num{position:absolute;right:24px;top:22px;color:#5e5b56;font-size:11px}.icon{font-size:29px;color:var(--gold2);margin-bottom:34px}
+.card h3{font-family:"Playfair Display";font-size:25px;margin-bottom:10px}.card p{color:#918e88;font-size:13px}
+.split{background:#0d0d10;border-block:1px solid var(--line)}.split-grid{display:grid;grid-template-columns:.9fr 1fr;gap:100px;align-items:center}
+.visual{position:relative}.visual img{width:100%;height:580px;object-fit:cover;border:1px solid var(--line)}.label{position:absolute;left:25px;bottom:25px;background:var(--gold);color:#111;padding:9px 13px;font-size:9px;font-weight:800;letter-spacing:2px}
+.about p.copy{color:var(--muted);font-size:15px;margin:22px 0}.points{margin-top:38px;border-top:1px solid var(--line)}.points div{display:grid;grid-template-columns:45px 1fr;padding:18px 0;border-bottom:1px solid var(--line)}.points span{color:var(--gold);font-size:11px}.points strong{font-size:14px}.points small{color:#777}
+.project{display:grid;grid-template-columns:1fr 1fr;background:var(--panel);border:1px solid var(--line)}.project-img{padding:22px;background:#050506;display:flex;justify-content:center}.project-img img{width:100%;max-height:560px;object-fit:contain}.project-info{padding:65px 55px;align-self:center}.kicker{font-size:10px;letter-spacing:3px;color:var(--gold);font-weight:700}.project h3{font-family:"Playfair Display";font-size:56px;line-height:1;margin:15px 0 4px}.project h4{font-size:21px;color:var(--gold2);font-weight:500}.project-info p:not(.kicker){color:var(--muted);font-size:14px;margin:25px 0}.tags{display:flex;gap:8px;flex-wrap:wrap}.tags span{font-size:9px;text-transform:uppercase;border:1px solid var(--line);padding:8px 10px;color:#aaa}
+.quote{text-align:center;padding:120px 0;background:radial-gradient(circle,rgba(217,166,59,.08),transparent 45%),#0c0c0f}.quote blockquote{font-family:"Playfair Display";font-size:clamp(36px,5vw,62px);margin-bottom:15px}.quote p{color:var(--gold);letter-spacing:4px;font-size:10px}
+.contact{background:#111114;border-top:1px solid var(--line)}.contact-grid{display:grid;grid-template-columns:1fr .8fr;gap:100px}.lead2{color:var(--muted);font-size:16px;max-width:520px;margin-top:28px}.contact-card{background:#09090b;border:1px solid var(--line);padding:36px}.row{display:flex;gap:17px;padding:20px 0;border-bottom:1px solid var(--line)}.ci{width:32px;color:var(--gold2);text-align:center;font-size:18px}.row small{display:block;color:#777;font-size:9px;letter-spacing:2px}.row a{display:block;color:#eee;font-size:15px}.row p{color:#ddd;font-size:14px}.full{width:100%;margin-top:24px;justify-content:center}
+footer{background:#070708;border-top:1px solid var(--line);padding:25px 0}.foot{display:flex;align-items:center;justify-content:space-between;gap:20px}.credit{display:flex;align-items:center;gap:18px;flex-wrap:wrap}.credit p{color:#666;font-size:10px}.powered{font-size:10px;color:#777;letter-spacing:.5px}.powered strong{color:var(--gold2)}.top{color:#666;font-size:10px}.top:hover{color:var(--gold)}
+@media(max-width:900px){nav{display:none;position:absolute;top:78px;left:0;right:0;background:#0b0b0d;padding:20px;flex-direction:column;align-items:stretch}.menu{display:block}.nav-open{display:flex}.hero-grid,.split-grid,.contact-grid{grid-template-columns:1fr;gap:55px}.hero-art{max-width:620px;margin:auto}.head{grid-template-columns:1fr;gap:20px}.services{grid-template-columns:repeat(2,1fr)}.project{grid-template-columns:1fr}.project-info{padding:45px 30px}}
+@media(max-width:600px){.container{width:calc(100% - 28px)}.hero{min-height:auto}.hero-art img{height:450px}.float{left:10px;bottom:20px}.meta{gap:18px;flex-wrap:wrap}.strip-in{overflow:hidden;white-space:nowrap;gap:12px;justify-content:flex-start}.services{grid-template-columns:1fr}.visual img{height:420px}.project h3{font-size:45px}.contact-card{padding:22px}.foot{flex-direction:column;align-items:flex-start}.credit{flex-direction:column;align-items:flex-start;gap:7px}}
+</style>
+</head>
+<body>
+<header><div class="container navbar">
+<a class="brand" href="#top"><span class="logo">NM</span><span><b>NM RECORDS</b><small>EXCELLENCE @ ITS BEST</small></span></a>
+<button class="menu" aria-label="Menu">☰</button>
+<nav id="nav"><a href="#services">Services</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a><a class="nav-btn" href="tel:+27718683614">Book a Session</a></nav>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="container hero-grid">
+<div>
+<p class="eyebrow">RECORD • CREATE • PRESERVE</p>
+<h1>Bring your sound<br><em>to life.</em></h1>
+<p class="lead">Professional recording and audio services for artists, families, brands and communities. From music projects to meaningful voice recordings, NM Records helps turn your message into something lasting.</p>
+<div class="actions"><a class="btn gold" href="#contact">Start Your Project →</a><a class="btn outline" href="#services">Explore Services</a></div>
+<div class="meta"><div><strong>Motherwell</strong><span>Eastern Cape</span></div><div><strong>2023+</strong><span>Featured project history</span></div><div><strong>6+</strong><span>Core services</span></div></div>
+</div>
+<div class="hero-art"><img src="assets/nm-records-services.jpg" alt="NM Records services"><div class="float"><span class="dot"></span>Accepting recording projects</div></div>
+</div></section>
+
+<div class="strip"><div class="container strip-in"><span>ALBUMS</span><i>•</i><span>SINGLES</span><i>•</i><span>VOICE OVERS</span><i>•</i><span>TRIBUTES</span><i>•</i><span>JINGLES</span></div></div>
+
+<section class="pad" id="services"><div class="container">
+<div class="head"><div><p class="eyebrow">WHAT WE DO</p><h2>Recording services<br><em>with purpose.</em></h2></div><p class="intro">Whether you're releasing music, honouring someone, or promoting a business, we provide focused audio services designed around your project.</p></div>
+<div class="services">
+<article class="card"><span class="num">01</span><div class="icon">♫</div><h3>Album Recording</h3><p>Record and develop your full music project with a professional, polished sound.</p></article>
+<article class="card"><span class="num">02</span><div class="icon">◉</div><h3>Single Recording</h3><p>Bring your next single to life with a focused recording experience.</p></article>
+<article class="card"><span class="num">03</span><div class="icon">◌</div><h3>Obituary Voice Over</h3><p>Respectful, clear voice recordings created for memorial and funeral tributes.</p></article>
+<article class="card"><span class="num">04</span><div class="icon">✦</div><h3>Tombstone Audio Recording</h3><p>Meaningful audio recordings that help preserve memories and messages.</p></article>
+<article class="card"><span class="num">05</span><div class="icon">♡</div><h3>Tribute Messages</h3><p>Personal tribute recordings for celebrations of life and special occasions.</p></article>
+<article class="card"><span class="num">06</span><div class="icon">↗</div><h3>Jingles for Adverts</h3><p>Catchy audio content for businesses, campaigns, promotions and advertising.</p></article>
+</div></div></section>
+
+<section class="pad split" id="about"><div class="container split-grid">
+<div class="visual"><img src="assets/nm-records-card.jpg" alt="NM Records business card"><div class="label">EXCELLENCE @ ITS BEST</div></div>
+<div class="about"><p class="eyebrow">ABOUT NM RECORDS</p><h2>More than a recording.<br><em>A lasting piece of work.</em></h2>
+<p class="copy">NM Records is a music and audio recording service based at 9 Gwanya Street, Shukushukuma, Motherwell. We work across music recording, spoken-word production, memorial audio and advertising content.</p>
+<p class="copy">Our approach is simple: deliver quality audio while treating every project with the care it deserves.</p>
+<div class="points"><div><span>01</span><strong>Quality-focused</strong><small>Professional recording mindset</small></div><div><span>02</span><strong>Versatile</strong><small>Music, voice and commercial audio</small></div><div><span>03</span><strong>Personal</strong><small>Your story remains at the centre</small></div></div>
+</div></div></section>
+
+<section class="pad" id="portfolio"><div class="container">
+<div class="head"><div><p class="eyebrow">SELECTED PROJECT</p><h2>Client work that<br><em>speaks for itself.</em></h2></div><p class="intro">A featured project from the NM Records recording portfolio.</p></div>
+<div class="project"><div class="project-img"><img src="assets/sis-phindy-isandla-sakho.jpg" alt="Sis'Phindy Isandla Sakho CD artwork"></div><div class="project-info"><p class="kicker">FEATURED CLIENT PROJECT · 2023</p><h3>Sis’Phindy</h3><h4>“Isandla Sakho”</h4><p>The “Isandla Sakho” project is featured as an example of music recording work associated with NM Records.</p><div class="tags"><span>Music Recording</span><span>CD Project</span><span>South Africa</span></div></div></div>
+</div></section>
+
+<section class="quote"><div class="container"><p class="eyebrow">THE NM STANDARD</p><blockquote>“We have the best quality.”</blockquote><p>EXCELLENCE @ ITS BEST</p></div></section>
+
+<section class="pad contact" id="contact"><div class="container contact-grid">
+<div><p class="eyebrow">LET'S CREATE</p><h2>Have a project<br><em>in mind?</em></h2><p class="lead2">Tell us what you want to record and let's turn your idea into a professional audio project.</p></div>
+<div class="contact-card">
+<div class="row"><span class="ci">☎</span><div><small>CALL / WHATSAPP</small><a href="tel:+27718683614">071 868 3614</a><a href="tel:+27653702579">065 370 2579</a></div></div>
+<div class="row"><span class="ci">@</span><div><small>EMAIL</small><a href="mailto:mjuza.sine@gmail.com">mjuza.sine@gmail.com</a></div></div>
+<div class="row"><span class="ci">⌖</span><div><small>STUDIO LOCATION</small><p>9 Gwanya Street<br>Shukushukuma, Motherwell</p></div></div>
+<div class="row"><span class="ci">f</span><div><small>FACEBOOK</small><p>Sinethemba Mjuza</p></div></div>
+<a class="btn gold full" href="mailto:mjuza.sine@gmail.com?subject=NM%20Records%20Recording%20Enquiry">Send an Enquiry →</a>
+</div></div></section>
+</main>
+
+<footer><div class="container foot">
+<div class="credit"><p>© <span id="year"></span> NM Records. All rights reserved.</p><span class="powered">Powered by <strong>SLABB Digital Group</strong></span></div>
+<a class="top" href="#top">Back to top ↑</a>
+</div></footer>
+
+<script>
+document.querySelector(".menu").addEventListener("click",()=>document.getElementById("nav").classList.toggle("nav-open"));
+document.querySelectorAll("nav a").forEach(a=>a.addEventListener("click",()=>document.getElementById("nav").classList.remove("nav-open")));
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
